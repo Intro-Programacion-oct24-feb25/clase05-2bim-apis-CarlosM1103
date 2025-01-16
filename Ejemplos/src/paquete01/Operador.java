@@ -24,4 +24,7 @@ public class Operador {
         return a + b;
     }
     
+    public static void presentarDatos(int A,int B,int suma) {
+        System.out.printf("La suma de %d y %d es = %d",A,B,suma);   
+    } 
 }

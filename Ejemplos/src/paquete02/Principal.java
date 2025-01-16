@@ -5,7 +5,6 @@
  */
 package paquete02;
 
-
 import paquete01.Operador;
 
 public class Principal {
@@ -18,5 +17,7 @@ public class Principal {
                 valorA,
                 valorB,
                 suma);
+    
+        Operador.presentarDatos(valorA,valorB,suma);
     }
 }
